@@ -1,0 +1,47 @@
+{
+  "dataset_rows": 569,
+  "feature_count": 30,
+  "train_size": 398,
+  "validation_size": 85,
+  "test_size": 86,
+  "best_hidden_layers": "(32,)",
+  "test_accuracy": 1.0,
+  "test_auc": 1.0,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      0,
+      32
+    ]
+  ],
+  "classification_report": {
+    "benign": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 54.0
+    },
+    "malignant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 32.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 86.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 86.0
+    }
+  }
+}
